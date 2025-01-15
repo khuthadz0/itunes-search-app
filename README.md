@@ -106,6 +106,7 @@ npm start
 ## Project Structure
 
 ```
+<<<<<<< HEAD
 itunes-search-app/
 ├── client/                     # Frontend React application
 │   ├── public/
@@ -142,6 +143,22 @@ itunes-search-app/
 │   ├── package.json
 │   └── README.md
 └── README.md                   # Main project documentation
+=======
+project/
+├── server/             # Backend directory
+│   ├── routes/         # API routes
+│   ├── middleware/     # Custom middleware
+│   ├── config/         # Configuration files
+│   └── server.js       # Main server file
+│
+└── frontend/           # Frontend directory
+    ├── public/         # Static files
+    └── src/            # React source files
+        ├── components/ # React components
+        ├── contexts/   # Context providers
+        ├── services/   # API services
+        └── styles/     # CSS styles
+>>>>>>> 8b0e09f4a5fe86273a44c23f584d98a476949b3f
 ```
 
 ## Contributing
